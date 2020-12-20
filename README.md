@@ -9,7 +9,7 @@ The code need:
                                                  link : http://supernovae.in2p3.fr/sdss_snls_jla/covmat_v6.tgz 
 
 To use make python3 Fit_jla.py -h (or --help) :
-
+```bash
 usage: Fit_jla.py [-h] [--alpha ALPHA] [--beta BETA] [--Mb MB] [--dm DM]
                   [--Om OM] [--OL OL] [--Ok OK] [--wb WB] [--w0 W0] [--wa WA]
                   [--H0 H0] [--F_alpha F_ALPHA] [--F_beta F_BETA]
@@ -74,4 +74,4 @@ Path to data:
   --SN_path SN_DATA     tablef3.dat path (default: ./data/tablef3.dat)
   --RM_path README      ReadMe path (default: ./data/ReadMe)
   --CovDir_path COVDIR  Cov Matrix dir path (default: ./data/covmat)
-
+```
