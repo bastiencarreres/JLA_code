@@ -1,7 +1,10 @@
 # JLA_code
 
-The code need: - The data_file : tablef3.dat find on cds https://cdsarc.unistra.fr/viz-bin/cat/J/A+A/568/A22
-               - The covmat directory containing C_bias.fits  C_dust.fits  C_model.fits  C_pecvel.fits  sigma_mu.txt
+The code need: 
+
+- The data_file and the README : tablef3.dat and README find on cds https://cdsarc.unistra.fr/viz-bin/cat/J/A+A/568/A22
+         
+- The covmat directory containing C_bias.fits  C_dust.fits  C_model.fits  C_pecvel.fits  sigma_mu.txt
                                                  C_cal.fits   C_host.fits  C_nonia.fits  C_stat.fits
                                                  link : http://supernovae.in2p3.fr/sdss_snls_jla/covmat_v6.tgz 
 
