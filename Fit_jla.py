@@ -165,8 +165,8 @@ if args.jla==False:
     chimin.fixed['Mb']=True
     chimin.fixed['dm']=True
 
-#chimin.migrad()
-#chimin.hesse()
+chimin.migrad()
+chimin.hesse()
 
 names_param = ['alpha','beta','Mb','dm','Or','OMat','OL','Ok','w0','wa','H0','Tcmb','Neff']
 results = np.concatenate((chimin.values[:4],[chi.Omega_r(chimin.values['H0'],args.T_cmb,args.Neff)],chimin.values[5:],[args.T_cmb],[args.Neff]),axis=0)
