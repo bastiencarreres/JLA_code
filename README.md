@@ -1,4 +1,5 @@
 # JLA_code
+#This code purpose is to reproduce the JLA analysis from Betoule et at. 2014
 
 The code need: 
 
